@@ -15,4 +15,8 @@ public class Building {
         this.name = name;
         this.id = id;
     }
+
+    public void addSensor(Sensor sensor){
+        SensorList.add(sensor);
+    }
 }

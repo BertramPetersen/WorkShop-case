@@ -1,4 +1,6 @@
 package org.example;
 
-public class Sensor {
+public abstract class Sensor {
+
+    Building location;
 }
